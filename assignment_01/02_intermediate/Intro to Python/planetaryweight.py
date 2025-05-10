@@ -14,7 +14,7 @@ def main():
     weight_on_earth = int(input("Enter a weight on Earth: "))
 
     # Get planet name from user and capitalize first letter
-    planet = input("Enter a planet: ").capitalize()
+    planet = input("Enter a planet: ")
 
     # Check if planet is in dictionary
     if planet in planet_gravity:
